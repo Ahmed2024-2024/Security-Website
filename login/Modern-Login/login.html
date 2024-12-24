@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="It is a website that helps you buy or browse home safety products. You can even benefit from its information.">
+    <meta name="keywords"
+        content="security, home, safety, products, products security, home security, home safety, سيكيورتي, منتجات سيكيورتي, كاميرات مراقبة, مراقبة وحدة, سيكيورتي, سثؤعقهفغ ؤشةثقش, حقخيعؤف اخ,ةث, مخلهى, اخةث, سثعقهفغ">
+    <meta name="author" content="AHMED HASSAN SAYED ELNEMS">
+    <meta property="og:title" content="Your Page Title Here">
+    <meta property="og:description" content="A brief description of your page content for social media.">
+    <meta property="og:image" content="https://www.example.com/image.jpg">
+    <meta property="og:url" content="https://www.example.com/your-page-url">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="logo.icon.png">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="container animate__animated animate__slideInLeft animate__delay-0.6s" id="container">
+        <div class="form-container sign-up">
+            <form id="signUpForm">
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" id="signUpName" required placeholder="Name">
+                <input type="email" id="signUpEmail" required placeholder="Email">
+                <input type="password" id="signUpPassword" required placeholder="Password" class="password-input">
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+
+        <div class="cont">
+            <div class="form-container sign-in">
+                <form id="signInForm">
+                    <h1>Login</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon i-1"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon i-2"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon i-3"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon i-4"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email password</span>
+                    <input type="email" id="signInEmail" required placeholder="Email">
+                    <input type="password" id="signInPassword" required placeholder="Password" class="password-input">
+                    <a href="#">Forget Your Password?</a>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left animate__animated animate__slideInRight animate__delay-0.3s">
+                        <h1>Welcome Back!</h1>
+                        <p>Enter your personal details to use all of site features</p>
+                        <button class="hidden" id="login">Login</button>
+                    </div>
+                    <div class="toggle-panel toggle-right animate__animated animate__slideInRight animate__delay-0.3s">
+                        <h1>Hello, Friend!</h1>
+                        <p>Register with your personal details to use all of site features</p>
+                        <button class="hidden" id="register">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="../../Home-About/index.html" title="home page" class="home-icon">
+            <i class="fa fa-home"></i> 
+        </a>
+        
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
